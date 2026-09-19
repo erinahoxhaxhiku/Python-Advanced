@@ -33,3 +33,6 @@ def update_item(name: str , price: float):
 @app.delete("/items/{item_id}")
 def delete_item(item_id: int):
     return {"message": f"Item {item_id} deleted"}
+
+#patch kur don me ndryshu nje te dhene prej disa te dhenave
+
